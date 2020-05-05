@@ -5,17 +5,14 @@
         margin-right: auto;
     }
 
-    html {
-        --column-count: 1;
-    }
-
     header{
-        text-align: left;
+        text-align: justify;
     }
     
     h1{
         margin-top: 5rem;
-        font-size: 1.875rem;
+        font-size: 2rem;
+        text-align: center;
     }
     
     main{
@@ -26,6 +23,10 @@
     
     main > section{
         margin-bottom: 2rem; 
+    }
+
+    br {
+        display: none;
     }
 }
 
