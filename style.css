@@ -18,6 +18,7 @@
 
 h1, h2{
     font-family: Rubik-Medium;
+    color: #2E2E2E;
 
 }
 
@@ -28,6 +29,7 @@ header > p{
 p{
     font-family: Rubik-Regular;
     font-size: 1rem;
+    color: #5E5E5E;
 }
 
 h1{
@@ -36,4 +38,37 @@ h1{
 
 h2{
     font-size: 1.25rem;
+    margin: 0;
+}
+
+body{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 2rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.75rem;
+}
+
+main > section{
+    width: 270px;
+    height: 290px;
+    background-color: white;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);
+}
+
+main > section > p{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top: 1rem;
+}
+
+img{
+    margin-top: 2.1875rem;
 }
