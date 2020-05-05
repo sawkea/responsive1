@@ -1,6 +1,6 @@
-@media screen and (max-width: 769px) and (min-width: 479px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     body {
-        max-width: 767px;
+        max-width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -31,6 +31,40 @@
     br {
         display: none;
     }
+    
+    
 }
 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    body {
+        width: 100%;
+    }
+    body > main  {
+        column-count: 2;
+        }
+}
 
+@media only screen and (max-width: 1023px) and (min-width: 666px) and (orientation: landscape) {
+    body > main {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    header{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    header > p{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2.25rem;
+    }
+    body > main  {
+        column-count: 2;
+        }
+  
+}
+  
