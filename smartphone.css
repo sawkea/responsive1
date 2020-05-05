@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    body {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    html {
+        --column-count: 1;
+    }
+  
+}
+header{
+    text-align: left;
+}
+
+h1{
+    margin-top: 110%;
+    font-size: 1.875rem;
+}
+
+main{
+    display: flex;
+    margin-top:3rem;
+
+}
+
+main > section{
+    margin-bottom: 2rem; 
+}
+
